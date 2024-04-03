@@ -7,6 +7,7 @@ import {
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import MainRootLayout from "./layout/MainRootLayout";
+import Shop from "./pages/shop/Shop";
 
 function App() {
   const router = createBrowserRouter(
@@ -14,6 +15,7 @@ function App() {
       <Route element={<MainRootLayout/>}>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path= "/shop" element={<Shop />}/>
 
       </Route>
     )
