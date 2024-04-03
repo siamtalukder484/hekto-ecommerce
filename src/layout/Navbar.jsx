@@ -34,7 +34,7 @@ const Navbar = () => {
                                 <NavLink className="font-lato font-normal text-base capitalize">Pages</NavLink>
                             </li>
                             <li>
-                                <NavLink className="font-lato font-normal text-base capitalize">Shop</NavLink>
+                                <NavLink to='/shop' className="font-lato font-normal text-base capitalize">Shop</NavLink>
                             </li>
                             <li>
                                 <NavLink className="font-lato font-normal text-base capitalize">Contact</NavLink>
