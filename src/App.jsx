@@ -1,15 +1,30 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import {
+  createRoutesFromElements,
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './pages/home/Home';
+import About from './pages/about/About';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+
+      </Route>
+    )
+  );
 
   return (
-   <>
-    <h1>Hello</h1>
-    <h3 className='text-3xl capitalize '>Hi World </h3>
-   </>
+    <RouterProvider
+    router={router}
+  />
   )
 }
 
