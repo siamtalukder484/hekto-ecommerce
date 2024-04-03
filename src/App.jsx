@@ -8,6 +8,7 @@ function App() {
   return (
    <>
     <h1>Hello</h1>
+    <h3 className='text-3xl capitalize '>Hi World </h3>
    </>
   )
 }
