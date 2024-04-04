@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image } from '../../utilities/Image'
 import { Link } from 'react-router-dom'
-import errorImg from '../../assets/images/404.png'
+// import errorImg from '../../assets/images/404.png'
 import Button from '../../componants/Button'
 
 export const ErrorPage = () => {
@@ -16,7 +16,7 @@ export const ErrorPage = () => {
         <div className='text-center'>
            <div className='w-[800px] h-[600px] mx-auto'>
             <picture>
-                    <Image source={errorImg} alt="not found "/>
+                    {/* <Image source={errorImg} alt="not found "/> */}
                 </picture>
            </div>
             <div>
