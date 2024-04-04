@@ -26,7 +26,7 @@ const Navbar = () => {
                                 <NavLink to="/" className="font-lato font-normal text-base capitalize">home</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/page" className="font-lato font-normal text-base capitalize">Pages</NavLink>
+                                <NavLink to="/pages" className="font-lato font-normal text-base capitalize">Pages</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/product" className="font-lato font-normal text-base capitalize">Products</NavLink>
