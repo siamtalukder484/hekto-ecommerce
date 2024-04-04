@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image } from '../../utilities/Image'
 import { Link } from 'react-router-dom'
-// import errorImg from '../../assets/images/404.png'
+import errorImg from '../../assets/images/404.png'
 import Button from '../../componants/Button'
 
 export const ErrorPage = () => {
@@ -13,10 +13,10 @@ export const ErrorPage = () => {
                 <p className='text-txt-color capitalize font-lato font-medium'>Home. Page <Link className='text-btn-color' to="/home">404 not Found</Link></p>
             </div>
         </div>
-        <div className='text-center'>
-           <div className='w-[800px] h-[600px] mx-auto'>
+        <div className='text-center py-[50px]'>
+           <div className='w-[900px] h-[485px] mx-auto overflow-hidden'>
             <picture>
-                    {/* <Image source={errorImg} alt="not found "/> */}
+                    <Image source={errorImg} alt="not found " style="w-full h-full object-cover"/>
                 </picture>
            </div>
             <div>
