@@ -23,22 +23,22 @@ const Navbar = () => {
                     <div>
                         <ul className='flex gap-x-[35px]'>
                             <li>
-                                <NavLink className="font-lato font-normal text-base capitalize">home</NavLink>
+                                <NavLink to="/" className="font-lato font-normal text-base capitalize">home</NavLink>
                             </li>
                             <li>
-                                <NavLink className="font-lato font-normal text-base capitalize">Pages</NavLink>
+                                <NavLink to="/page" className="font-lato font-normal text-base capitalize">Pages</NavLink>
                             </li>
                             <li>
-                                <NavLink className="font-lato font-normal text-base capitalize">Pages</NavLink>
+                                <NavLink to="/product" className="font-lato font-normal text-base capitalize">Products</NavLink>
                             </li>
                             <li>
-                                <NavLink className="font-lato font-normal text-base capitalize">Pages</NavLink>
+                                <NavLink to="/blog" className="font-lato font-normal text-base capitalize">Blog </NavLink>
                             </li>
                             <li>
                                 <NavLink to='/shop' className="font-lato font-normal text-base capitalize">Shop</NavLink>
                             </li>
                             <li>
-                                <NavLink className="font-lato font-normal text-base capitalize">Contact</NavLink>
+                                <NavLink  to="/contact" className="font-lato font-normal text-base capitalize">Contact</NavLink>
                             </li>
                         </ul>
                     </div>
