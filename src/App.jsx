@@ -8,6 +8,9 @@ import Home from './pages/home/Home';
 import About from './pages/about/About';
 import MainRootLayout from "./layout/MainRootLayout";
 import Shop from "./pages/shop/Shop";
+import { ErrorPage } from "./pages/errorpage/ErrorPage";
+import { Product } from "./pages/product/Product";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   const router = createBrowserRouter(
@@ -16,7 +19,9 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path= "/shop" element={<Shop />}/>
-
+        <Route path= "/product" element={ <Product/>}/>
+        <Route path= "/contact" element={ <Contact/>}/>
+        <Route path= "*" element={<ErrorPage />}/>
       </Route>
     )
   );
