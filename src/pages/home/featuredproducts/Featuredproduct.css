@@ -1,0 +1,14 @@
+.featured_product_details_box:hover .featured_product_pera {
+    color: #ffff;
+    transition: all linear 0.3s;
+}
+.featured_product_details_box:hover .featured_product_price {
+    color: #ffff;
+    transition: all linear 0.3s;
+}
+.featured_product_cart_icon{
+    visibility: hidden;
+}
+.featured_product_cart_box:hover .featured_product_cart_icon{
+    visibility: visible;
+}
