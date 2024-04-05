@@ -16,6 +16,7 @@ export default {
         'banner-bg': '#F2F0FF',
         'footer-bg': '#EEEFFB',
         'copyright-bg': '#E7E4F8',
+        'product-bg': '#F6F7FB',
       },
       fontFamily: {
         'lato': "'Lato', sans-serif",
@@ -24,6 +25,9 @@ export default {
       maxWidth: {
         'container': '1170px',
       },
+      boxShadow: {
+        'product-shadow': 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;',
+      }
     },
   },
   plugins: [],
