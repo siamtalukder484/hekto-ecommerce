@@ -14,6 +14,7 @@ import Contact from "./pages/contact/Contact";
 import Blog from "./pages/blog/Blog";
 import Page from "./pages/page/Page";
 import Login from "./pages/login/Login";
+import Faq from "./pages/faq/Faq";
 
 function App() {
   const router = createBrowserRouter(
@@ -21,6 +22,7 @@ function App() {
       <Route element={<MainRootLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/faq" element={<Faq />} />
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/product" element={<Product />} />
