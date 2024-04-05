@@ -50,7 +50,7 @@ const Featuredproduct = () => {
                 <div className='text-center mb-[48px]'>
                     <Subheading text="Featured Products" style="text-[42px] text-[#1A0B5B] font-[700] capitalize "/>
                 </div>
-                <div className='flex item-center  justify-between gap-x-[29px] '>
+                <div className='flex item-center  justify-between gap-x-[29px] flex-wrap '>
                     {
                         featurdproductarray.map((item , index)=>(
                             <div key={index} className='featured_product_cart_box cursor-pointer w-[270px] bg-[#F6F7FB] rounded-[10px] '>
