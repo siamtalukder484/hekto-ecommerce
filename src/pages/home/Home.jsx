@@ -3,6 +3,7 @@ import Homebaner from './homebaner/Homebaner'
 import Featuredproduct from './featuredproducts/Featuredproduct'
 import Leatestproduct from './leatestproduct/Leatestproduct'
 import Shopexoffer from './shopexoffer/Shopexoffer'
+import Uniquefeature from './uniquefeatures/Uniquefeature'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Featuredproduct/>
       <Leatestproduct/>
       <Shopexoffer/>
+      <Uniquefeature/>
     </>
 
   )
