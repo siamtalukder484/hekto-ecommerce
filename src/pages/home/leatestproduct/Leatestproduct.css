@@ -1,0 +1,12 @@
+.leatest_product_cart_icon{
+    visibility: hidden;
+}
+.leatest_product_cart_box:hover .leatest_product_cart_icon{
+    visibility: visible;
+    transition: all linear 0.3s;
+}
+.leatest_product_link:hover{
+    color: #FB2E86;
+    text-decoration: underline #FB2E86;
+    transition: all linear 0.3s;
+}
