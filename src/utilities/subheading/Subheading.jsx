@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subheading = ({style,text}) => {
   return (
-    <div className={style}>{text}</div>
+    <h2 className={style}>{text}</h2>
   )
 }
 

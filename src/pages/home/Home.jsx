@@ -5,6 +5,7 @@ import Leatestproduct from './leatestproduct/Leatestproduct'
 import Shopexoffer from './shopexoffer/Shopexoffer'
 import Uniquefeature from './uniquefeatures/Uniquefeature'
 import Trendingproduct from './trendingproducts/Trendingproduct'
+import Discountitem from './discountitem/Discountitem'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Shopexoffer/>
       <Uniquefeature/>
       <Trendingproduct/>
+      <Discountitem/>
     </>
 
   )

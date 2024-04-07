@@ -62,7 +62,7 @@ const Featuredproduct = () => {
                                 <div className='w-[100%] h-[236px] bg-[#F6F7FB] pt-[46px] pr-[52px] pb-[12px] pl-[40px]'>
                                     <img className='w-[100%] h-[100%] object-cover' src={item.img} alt="not found" />
                                 </div>
-                                <div className='featured_product_details_box cursor-pointer text-center pb-[17px] pt-[27px] bg-[#fff] hover:bg-[#2F1AC4] transition-all ease-linear delay-0.3s hover.featured_product_pera:text-[#fff]'>
+                                <div className='featured_product_details_box cursor-pointer text-center pb-[17px] pt-[27px] bg-[#fff] hover:bg-[#2F1AC4]'>
                                     <Nanohead text={item.name} style='text-[18px] text-[#FB2E86] font-[700] capitalize '/>
                                     <div className='flex item-center  justify-center gap-x-[5px] pt-[12px] pb-[18px] '>
                                         <div className='w-[14px] h-[4px] bg-[#05E6B7] rounded-[2px]'></div>
