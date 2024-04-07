@@ -7,3 +7,19 @@
 @tailwind utilities;
 
 
+/*---Client-Say-part-paginaion-bar-change---*/
+
+.swiper-pagination-bullet{
+    width: 10px;
+    height: 3px;
+    border-radius: 5px;
+    background: #FF75B0;
+    margin-bottom: 77px;
+}
+
+.swiper-pagination-bullet-active{
+    width: 27px;
+    background: #FB2E86;
+}
+
+/* -------------------------------------- */
