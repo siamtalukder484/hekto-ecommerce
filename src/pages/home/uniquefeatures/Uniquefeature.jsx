@@ -1,9 +1,9 @@
 import React from 'react'
 import Peras from '../../../utilities/Peras'
-import Headingtext from '../../../utilities/headingtext/Headingtext'
 import Button from '../../../componants/Button'
 import imagetwo from '../../../images/image13.png'
 import Nanohead from '../../../utilities/nanohead/Nanohead'
+import Subheading from '../../../utilities/subheading/Subheading'
 
 const Uniquefeature = () => {
   return (
@@ -14,7 +14,7 @@ const Uniquefeature = () => {
                     <img className='w-[100%] h-[100%] object-cover relative z-40' src={imagetwo} alt="not found" />
                 </div>
                 <div>
-                    <Headingtext text='Unique Features Of leatest & Trending Poducts' style='w-[627px] leading-[150%] mb-[29px] text-[53px] text-[#151875] font-[600]'/>
+                    <Subheading text='Unique Features Of leatest & Trending Poducts' style='w-[627px] leading-[150%] mb-[29px] text-[53px] text-[#151875] font-[600]'/>
                     <div className='flex justify-left gap-y-[13px] flex-col'>
                         <div className='flex items-center justify-left gap-x-[17px]'>
                             <div className='w-[10px] h-[10px] bg-[#FB2E86] rounded-[50%]'></div>

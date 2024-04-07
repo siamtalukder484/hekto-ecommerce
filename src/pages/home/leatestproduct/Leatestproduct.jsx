@@ -67,7 +67,7 @@ const Leatestproduct = () => {
                 <div className='text-center mb-[48px]'>
                     <Subheading text="Leatest Products" style="text-[42px] text-[#1A0B5B] font-[700] capitalize "/>
                     <div className='flex item-center  justify-center gap-x-[58px] mt-[19px]'>
-                        <NavLink className="leatest_product_link text-[##151875] text-[18px] font-[400] capitalize" to = "#">New Arrival</NavLink>
+                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">New Arrival</NavLink>
                         <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">Best Seller</NavLink>
                         <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">Featured</NavLink>
                         <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">Special Offer</NavLink>
