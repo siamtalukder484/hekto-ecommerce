@@ -14,7 +14,8 @@ import shopNine from '../../assets/images/shop9.png'
 import shopTen from '../../assets/images/shop10.png'
 import shopEleven from '../../assets/images/shop11.png'
 import shopTwelve from '../../assets/images/shop12.png'
-
+import { Image } from '../../utilities/Image'
+import shopBrand from '../../assets/images/brand_img.png'
 const Shop = () => {
   return (
     <div>
@@ -43,44 +44,49 @@ const Shop = () => {
               <label htmlFor="" className='text-base font-lato font-normal text-heading-color'>View: </label>
             </div>
           </div>
-            <div className='flex gap-[24px] flex-wrap pt-[70px]'>
-              <div>
-                <ProductImg img={shopOne} productname="Vel elit euismod" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopTow} productname="Ultricies condimentum imperdiet" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopThree} productname="Vitae suspendisse sed" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopFour} productname="Sed at fermentum" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopFive} productname="Ultrices mauris sit" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopSex} productname="Sollicitudin amet orci" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopSeven} productname="Vestibulum magna laoreet" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopEight} productname="Fusce pellentesque at" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopNine} productname="Pellentesque condimentum ac" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopTen} productname="Cras scelerisque velit" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopEleven} productname="Lectus vulputate faucibus" price="$30.5" deletPrice="$50.67"/>
-              </div>
-              <div>
-                <ProductImg img={shopTwelve} productname="Purus risus, ut" price="$30.5" deletPrice="$50.67"/>
-              </div>
+          <div className='flex gap-[24px] flex-wrap pt-[70px]'>
+            <div>
+              <ProductImg img={shopOne} productname="Vel elit euismod" price="$30.5" deletPrice="$50.67"/>
             </div>
+            <div>
+              <ProductImg img={shopTow} productname="Ultricies condimentum imperdiet" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopThree} productname="Vitae suspendisse sed" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopFour} productname="Sed at fermentum" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopFive} productname="Ultrices mauris sit" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopSex} productname="Sollicitudin amet orci" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopSeven} productname="Vestibulum magna laoreet" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopEight} productname="Fusce pellentesque at" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopNine} productname="Pellentesque condimentum ac" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopTen} productname="Cras scelerisque velit" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopEleven} productname="Lectus vulputate faucibus" price="$30.5" deletPrice="$50.67"/>
+            </div>
+            <div>
+              <ProductImg img={shopTwelve} productname="Purus risus, ut" price="$30.5" deletPrice="$50.67"/>
+            </div>
+          </div>
+          <div className='pt-[80px] flex items-center justify-center'>
+              <picture>
+                <Image source={shopBrand} alt="FAQ Image Not Found"/>
+              </picture>
+          </div>
         </div>
       </div>
     </div>
