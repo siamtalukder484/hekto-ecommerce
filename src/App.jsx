@@ -14,6 +14,7 @@ import Contact from "./pages/contact/Contact";
 import Blog from "./pages/blog/Blog";
 import Page from "./pages/page/Page";
 import Login from "./pages/login/Login";
+import Shopleftside from "./pages/shop/Shopleftside";
 
 function App() {
   const router = createBrowserRouter(
@@ -28,6 +29,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/pages" element={<Page />} />
         <Route path="*" element={<ErrorPage />} />
+        <Route path="/shopleftside" element={<Shopleftside />}/>
       </Route>
     )
   );
