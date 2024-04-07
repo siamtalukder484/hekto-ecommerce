@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import PeraGrap from '../../utilities/PeraGrap'
 import Input from '../../componants/Input'
 import Button from '../../componants/Button'
+import { Image } from '../../utilities/Image'
+import faqImg from '../../assets/images/brand_img.png'
 
 const Faq = () => {
   return (
@@ -66,6 +68,11 @@ const Faq = () => {
             </div>
           </div>
           </div>
+        </div>
+        <div className='pb-[90px] flex items-center justify-center'>
+          <picture>
+            <Image source={faqImg} alt="FAQ Image Not Found"/>
+          </picture>
         </div>
       </div>
     </div>
