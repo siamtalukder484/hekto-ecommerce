@@ -19,11 +19,11 @@ export default {
         'product-bg': '#F6F7FB',
       },
       fontFamily: {
-        'lato': "'Lato', sans-serif",
-        'Josefin': "'Josefin Sans', sans-serif;",
+        lato: "'Lato', sans-serif",
+        Josefin: "'Josefin Sans', sans-serif;",
       },
       maxWidth: {
-        'container': '1170px',
+        container: '1170px',
       },
       boxShadow: {
         'product-shadow': 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;',
