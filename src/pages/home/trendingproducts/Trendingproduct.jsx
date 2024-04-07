@@ -64,7 +64,7 @@ const Trendingproduct = () => {
                                     <Nanohead text={item.name} style='text-[16px] text-[#151875] font-[700] capitalize '/>
                                     <div className='flex items-center justify-center text-center mt-[8px] gap-x-[12px] '>
                                         <Peras text={item.updateprice} style="featured_product_pera text-[center] text-[#151875] text-[14px] font-[400] "/>
-                                        <span className='featured_product_price text-[center] text-[##151875] text-[12px] font-[400]'>{item.oldprice}</span>
+                                        <span className='featured_product_price tex-[center] text-[#151875] text-[12px] font-[400]'>{item.oldprice}</span>
                                     </div>
                                 </div>
                             </div>
