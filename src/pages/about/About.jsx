@@ -1,7 +1,4 @@
-import React from "react";
-import { Image } from "../../utilities/Image";
-import aboutImg from "../../assets/images/About_img.png";
-import Button from "../../componants/Button";
+import React from 'react'
 
 const About = () => {
   return (
