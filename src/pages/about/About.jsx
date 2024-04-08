@@ -13,7 +13,7 @@ const About = () => {
               About Us
             </h3>
             <p className="text-black font-lato text-base font-medium leading-normal">
-              Home . Pages . <span className="text-btn-color">About us</span>
+              Home. Pages . <span className="text-btn-color">About us</span>
             </p>
           </div>
         </div>
