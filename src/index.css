@@ -1,7 +1,25 @@
+/*========= Google Fonts  =============*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/*============= Google Fonts  =========*/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/*========= Google Fonts  =============*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
-/*============= Google Fonts  =========*/
+
+/*---Client-Say-part-paginaion-bar-change---*/
+
+.swiper-pagination-bullet{
+    width: 10px;
+    height: 3px;
+    border-radius: 5px;
+    background: #FF75B0;
+    margin-bottom: 77px;
+}
+
+.swiper-pagination-bullet-active{
+    width: 27px;
+    background: #FB2E86;
+}
+
+/* -------------------------------------- */
