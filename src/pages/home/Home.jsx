@@ -7,6 +7,7 @@ import Uniquefeature from './uniquefeatures/Uniquefeature'
 import Trendingproduct from './trendingproducts/Trendingproduct'
 import Discountitem from './discountitem/Discountitem'
 import Topcategories from './topcategories/Topcategories'
+import Newsletarbaner from './newsletarbaner/Newsletarbaner'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Trendingproduct/>
       <Discountitem/>
       <Topcategories/>
+      <Newsletarbaner/>
     </>
 
   )

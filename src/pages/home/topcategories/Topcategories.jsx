@@ -53,8 +53,8 @@ const Topcategories = () => {
                                     </div>
                                 </div>
                                 <div className=' text-center  mt-[27px] bg-[#fff]'>
-                                    <Nanohead text={item.name} style='text-[20px] text-[#151875] font-[700] capitalize '/>
-                                    <Peras text={item.price} style=" text-[center] text-[#151875] text-[16px] font-[400] mb-[12px]"/>
+                                    <Nanohead text={item.name} style='text-[20px] text-[#151875] font-[700] capitalize mb-[14px] '/>
+                                    <Peras text={item.price} style=" text-[center] text-[#151875] text-[16px] font-[400]"/>
                                 </div>
                             </div>
                         ))
