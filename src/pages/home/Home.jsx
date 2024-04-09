@@ -8,6 +8,7 @@ import Trendingproduct from './trendingproducts/Trendingproduct'
 import Discountitem from './discountitem/Discountitem'
 import Topcategories from './topcategories/Topcategories'
 import Newsletarbaner from './newsletarbaner/Newsletarbaner'
+import Spcompany from './spcompany/Spcompany'
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Discountitem/>
       <Topcategories/>
       <Newsletarbaner/>
+      <Spcompany/>
     </>
 
   )
