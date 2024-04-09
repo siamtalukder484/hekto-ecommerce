@@ -1,0 +1,19 @@
+.top_categories_iamge_box{
+    width: 279px;
+    height: 279px;
+    background: #F7F7F7;
+    border-radius: 50%;
+    transition: all linear 0.3s;
+}
+.top_categories_iamge_box:hover{
+    transform: translateY(-15px);
+}
+.top_categories_iamge_background_cercle{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    background: #31208A;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+}
