@@ -9,6 +9,7 @@ import Discountitem from './discountitem/Discountitem'
 import Topcategories from './topcategories/Topcategories'
 import Newsletarbaner from './newsletarbaner/Newsletarbaner'
 import Spcompany from './spcompany/Spcompany'
+import Leatestblog from './leatestblog/Leatestblog'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       <Topcategories/>
       <Newsletarbaner/>
       <Spcompany/>
+      <Leatestblog/>
     </>
 
   )

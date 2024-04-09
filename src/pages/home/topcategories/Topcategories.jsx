@@ -42,7 +42,7 @@ const Topcategories = () => {
                 <div className='text-center mb-[56px]'>
                     <Subheading text="top categories" style="text-[42px] text-[#151875] font-[700] capitalize "/>
                 </div>
-                <div className='flex item-center  justify-between gap-x-[30px] flex-wrap '>
+                <div className='flex items-center  justify-between gap-x-[30px] flex-wrap '>
                     {
                         topcategoriesproductarray.map((item , index)=>(
                             <div key={index} className=' w-[270px] bg-[#fff] cursor-pointer relative '>
