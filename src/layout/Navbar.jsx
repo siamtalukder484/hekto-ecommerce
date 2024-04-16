@@ -40,6 +40,9 @@ const Navbar = () => {
                             <li>
                                 <NavLink  to="/contact" className="font-lato font-normal text-base capitalize">Contact</NavLink>
                             </li>
+                            <li>
+                                <NavLink  to="/about" className="font-lato font-normal text-base capitalize">About</NavLink>
+                            </li>
                         </ul>
                     </div>
                     <div className='relative'>
