@@ -121,7 +121,7 @@ const Shopleftside = () => {
                                 <FaStar className='text-[#FFC416] text-[12px]'/>
                                 <FaStar className='text-[#FFC416] text-[12px]'/>
                                 <FaStar className='text-[#B2B2B2] text-[12px]'/>
-                                <p className='text-[12px]'>(2341)</p>
+                                <p className='text-[12px]'>(2342)</p>
                             </div>
                     </div>
                     <div className='mt-5 text-[16px] flex  items-center gap-[5px] '>
