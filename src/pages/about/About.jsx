@@ -1,5 +1,6 @@
 import React from 'react'
 import { Image } from '../../utilities/Image'
+import about_img from '../../assets/images/About_img.png'
 import freedelivery from '../../assets/images/free-delivery 1.png'
 import cashback from '../../assets/images/cashback 1.png'
 import quality from '../../assets/images/premium-quality 1.png'
@@ -7,6 +8,7 @@ import support from '../../assets/images/24-hours-support 1.png'
 import maskgroup_1 from '../../assets/images/Mask Group-1.png'
 import maskgroup_2 from '../../assets/images/Mask Group-2.png'
 import maskgroup_3 from '../../assets/images/Mask Group-3.png'
+import Button from '../../componants/Button'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -16,6 +18,31 @@ import 'swiper/css/pagination';
 const About = () => {
   return (
     <>
+    {/* ----------About-start--------- */}
+     <div className='bg-about-bg'>
+      <div className='max-w-container m-auto pt-[96px] pb-[126px]'>
+          <h3 className='font-Josefin text-[36px] font-bold leading-0 mb-[9px]'>About Us</h3>
+          <ul className='flex'>
+            <li className='font-lato text-[16px] font-semibold text-txt-color'>Home <span className='my-0 mx-1.5'>.</span> </li>
+            <li className='font-lato text-[16px] font-semibold text-txt-color'>Pages <span className='my-0 ml-[3px] mr-[7px] text-btn-color'>.</span></li>
+            <li className='font-lato text-[16px] font-semibold text-btn-color'>About Us</li>
+          </ul>
+        </div>
+      </div>
+      {/* ----------About-end--------- */}
+      {/* ----------History-start--------- */}
+        <div className='max-w-container m-auto pt-[96px] pt-[120px] relative'>
+          <div className='flex gap-[30px]'>
+            <div className='w-[552px] h-[409px] bg-about_img_bg rounded-md absolute top-[96px] left-[-15px] z-[-1]'></div>
+            <Image source={about_img} alt="Image Not Found"/>
+            <div>
+              <h3 className='font-Josefin text-[36px] font-bold leading-[48px] text-heading-color mt-[41px] mb-[14px] capitalize'>Know About Our Ecomerce Business, History</h3>
+              <p className='w-[95%] font-lato text-[16px] font-medium leading-[25.6px] text-pera-color'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.</p>
+              <Button style="font-lato text-[18px] font-medium rounded-[3px] px-[30px] py-[9px] bg-btn-color text-white mt-[100px]" text="Contact us"/>
+            </div>
+          </div>
+        </div>
+        {/* -----------History-end-------- */}
         {/* -----------Features-start-------- */}
         <div className='max-w-container m-auto'>
           <h2 className='font-Josefin text-[42px] font-bold text-black text-center mt-[140px] mb-[67px]'>Our Features</h2>
