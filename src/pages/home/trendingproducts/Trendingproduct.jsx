@@ -51,7 +51,7 @@ const Trendingproduct = () => {
         <div className='max-w-container mx-auto'>
             <div>
                 <div className='text-center mb-[39px]'>
-                    <Subheading text="Trending Products" style="text-[42px] text-[#151875] font-[700] capitalize "/>
+                    <Subheading text="Trending Products" style="text-[42px] text-[#151875] font-[700] font-Josefin capitalize "/>
                 </div>
                 <div className='flex item-center justify-between gap-x-[29px] flex-wrap '>
                     {
@@ -61,7 +61,7 @@ const Trendingproduct = () => {
                                     <img className='w-[100%] h-[100%] object-cover' src={item.img} alt="not found" />
                                 </div>
                                 <div className='cursor-pointer text-center pb-[17px] pt-[15px] bg-[#fff]'>
-                                    <Nanohead text={item.name} style='text-[16px] text-[#151875] font-[700] capitalize '/>
+                                    <Nanohead text={item.name} style='text-[16px] text-[#151875] font-[700] font-lato capitalize '/>
                                     <div className='flex items-center justify-center text-center mt-[8px] gap-x-[12px] '>
                                         <Peras text={item.updateprice} style="featured_product_pera text-[center] text-[#151875] text-[14px] font-[400] "/>
                                         <span className='featured_product_price tex-[center] text-[#151875] text-[12px] font-[400]'>{item.oldprice}</span>
@@ -73,17 +73,17 @@ const Trendingproduct = () => {
                 </div>
                 <div className='flex item-center  justify-between gap-x-[29px] mt-[39px]'>
                   <div className='w-[420px] bg-[#FFF6FB] pt-[34px] pr-[6px] bd-[2px] pl-[25px]'>
-                        <Miniheadingtext text="23% off in all products" style='text-[26px] text-[#151875] font-[600px]'/>
+                        <Miniheadingtext text="23% off in all products" style='text-[26px] text-[#151875] font-[600] font-Josefin'/>
                         <div className='flex justify-between'>
-                            <Link className='text-[16px] text-[#FB2E86] cursor-pointer underline decoration-[#FB2E86] ' to = "#">Shop Now</Link>
+                            <Link className='text-[16px] text-[#FB2E86] font-[600] font-lato cursor-pointer underline decoration-[#FB2E86] ' to = "#">Shop Now</Link>
                             <div className='w-[213px] h-[207px] bg-[#F6F7FB]'>
                                 <img className='w-[100%] h-[100%] object-cover' src={productfive} alt="not found" />
                             </div>
                         </div>
                   </div>
                   <div className='w-[420px] bg-[#FFF6FB] pt-[34px] pr-[6px] bd-[2px] pl-[25px]'>
-                        <Miniheadingtext text="23% off in all products" style='text-[26px] text-[#151875] font-[600]'/>
-                        <Link className='text-[16px] text-[#FB2E86] cursor-pointer underline decoration-[#FB2E86] ' to = "#">View Collection</Link>
+                        <Miniheadingtext text="23% off in all products" style='text-[26px] text-[#151875] font-[600] font-Josefin'/>
+                        <Link className='text-[16px] text-[#FB2E86] font-[600] font-lato cursor-pointer underline decoration-[#FB2E86] ' to = "#">View Collection</Link>
                         <div className='flex justify-end'>
                             <div className='w-[312px] h-[173px] bg-[#F6F7FB]'>
                                 <img className='w-[100%] h-[100%] object-cover' src={productsix} alt="not found" />
@@ -96,8 +96,8 @@ const Trendingproduct = () => {
                             <img className='w-[100%] h-[100%] object-cover' src={productseven} alt="not found" />
                         </div>
                         <div>
-                            <Nanohead text='Executive Seat chair' style='text-[16px] text-[#151875] font-[500] mb-[5px]'/>
-                            <Peras text='$32.00' style='text-[12px] text-[#151875] font-[400]'/>
+                            <Nanohead text='Executive Seat chair' style='text-[16px] text-[#151875] font-[500] font-Josefin mb-[5px]'/>
+                            <Peras text='$32.00' style='text-[12px] text-[#151875] font-[400] font-Josefin'/>
                         </div>
                     </div>
                     <div className='flex items-center justify-left gap-x-[9px] mb-[21px] '>
@@ -105,8 +105,8 @@ const Trendingproduct = () => {
                             <img className='w-[100%] h-[100%] object-cover' src={producteight} alt="not found" />
                         </div>
                         <div>
-                            <Nanohead text='Executive Seat chair' style='text-[16px] text-[#151875] font-[500] mb-[5px]'/>
-                            <Peras text='$32.00' style='text-[12px] text-[#151875] font-[400]'/>
+                            <Nanohead text='Executive Seat chair' style='text-[16px] text-[#151875] font-[500] font-Josefin mb-[5px]'/>
+                            <Peras text='$32.00' style='text-[12px] text-[#151875] font-[400] font-Josefin'/>
                         </div>
                     </div>
                     <div className='flex items-center justify-left gap-x-[9px] '>
@@ -114,8 +114,8 @@ const Trendingproduct = () => {
                             <img className='w-[100%] h-[100%] object-cover' src={productnine} alt="not found" />
                         </div>
                         <div>
-                            <Nanohead text='Executive Seat chair' style='text-[16px] text-[#151875] font-[500] mb-[5px]'/>
-                            <Peras text='$32.00' style='text-[12px] text-[#151875] font-[400]'/>
+                            <Nanohead text='Executive Seat chair' style='text-[16px] text-[#151875] font-[500] font-Josefin mb-[5px]'/>
+                            <Peras text='$32.00' style='text-[12px] text-[#151875] font-[400] font-Josefin'/>
                         </div>
                     </div>
                   </div>

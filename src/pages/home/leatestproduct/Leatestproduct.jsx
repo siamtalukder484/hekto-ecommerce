@@ -65,12 +65,12 @@ const Leatestproduct = () => {
         <div className='max-w-container mx-auto'>
             <div className='leatest_product_container'>
                 <div className='text-center mb-[48px]'>
-                    <Subheading text="Leatest Products" style="text-[42px] text-[#1A0B5B] font-[700] capitalize "/>
+                    <Subheading text="Leatest Products" style="text-[42px] text-[#1A0B5B] font-[700] font-Josefin capitalize "/>
                     <div className='flex item-center  justify-center gap-x-[58px] mt-[19px]'>
-                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">New Arrival</NavLink>
-                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">Best Seller</NavLink>
-                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">Featured</NavLink>
-                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] capitalize" to = "#">Special Offer</NavLink>
+                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] font-lato capitalize" to = "#">New Arrival</NavLink>
+                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] font-lato capitalize" to = "#">Best Seller</NavLink>
+                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] font-lato capitalize" to = "#">Featured</NavLink>
+                        <NavLink className="leatest_product_link text-[#151875] text-[18px] font-[400] font-lato capitalize" to = "#">Special Offer</NavLink>
                     </div>
                 </div>
                 <div className='flex item-center  justify-between gap-x-[37px] gap-y-[116px] flex-wrap '>
@@ -86,10 +86,10 @@ const Leatestproduct = () => {
                                     <img className='w-[100%] h-[100%] object-cover' src={item.img} alt="not found" />
                                 </div> 
                                 <div className='flex item-center  justify-between gap-x-[50px] cursor-pointer text-center bg-[#fff]'>
-                                    <Nanohead text={item.name} style='text-[18px] text-[#151875] font-[500] capitalize '/>
+                                    <Nanohead text={item.name} style='text-[18px] text-[#151875] font-[500] font-Josefin capitalize '/>
                                     <div className='flex item-center  justify-right gap-x-[5px]'>
-                                        <Peras text={item.newprice} style="text-[center] text-[#151875] text-[14px] font-[400] mb-[12px]"/>
-                                        <del className=' text-[center] text-[#FB2E86] text-[14px] font-[400] pb-[12px]'>{item.oldprice}</del>
+                                        <Peras text={item.newprice} style="text-[center] text-[#151875] text-[14px] font-[400] font-Josefin mb-[12px]"/>
+                                        <del className=' text-[center] text-[#FB2E86] text-[14px] font-[400] font-Josefin pb-[12px]'>{item.oldprice}</del>
                                     </div>
                                 </div>
                             </div>

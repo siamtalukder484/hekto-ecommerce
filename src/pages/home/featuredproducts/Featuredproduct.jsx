@@ -48,7 +48,7 @@ const Featuredproduct = () => {
         <div className='max-w-container mx-auto'>
             <div>
                 <div className='text-center mb-[48px]'>
-                    <Subheading text="Featured Products" style="text-[42px] text-[#1A0B5B] font-[700] capitalize "/>
+                    <Subheading text="Featured Products" style="text-[42px] text-[#1A0B5B] font-[700] font-Josefin capitalize "/>
                 </div>
                 <div className='flex item-center  justify-between gap-x-[29px] flex-wrap '>
                     {
@@ -63,14 +63,14 @@ const Featuredproduct = () => {
                                     <img className='w-[100%] h-[100%] object-cover' src={item.img} alt="not found" />
                                 </div>
                                 <div className='featured_product_details_box cursor-pointer text-center pb-[17px] pt-[27px] bg-[#fff] hover:bg-[#2F1AC4]'>
-                                    <Nanohead text={item.name} style='text-[18px] text-[#FB2E86] font-[700] capitalize '/>
+                                    <Nanohead text={item.name} style='text-[18px] text-[#FB2E86] font-[700] font-lato capitalize '/>
                                     <div className='flex item-center  justify-center gap-x-[5px] pt-[12px] pb-[18px] '>
                                         <div className='w-[14px] h-[4px] bg-[#05E6B7] rounded-[2px]'></div>
                                         <div className='w-[14px] h-[4px] bg-[#F701A8] rounded-[2px]'></div>
                                         <div className='w-[14px] h-[4px] bg-[#00009D] rounded-[2px]'></div>
                                     </div>
-                                    <Peras text={item.code} style="featured_product_pera text-[center] text-[#151875] text-[14px] font-[400] mb-[12px]"/>
-                                    <span className='featured_product_price text-[center] text-[#151875] text-[14px] font-[400] pb-[12px]'>{item.price}</span>
+                                    <Peras text={item.code} style="featured_product_pera text-[center] text-[#151875] text-[14px] font-[400] font-Josefin mb-[12px]"/>
+                                    <span className='featured_product_price text-[center] text-[#151875] text-[14px] font-[400] font-lato pb-[12px]'>{item.price}</span>
                                 </div>
                             </div>
                         ))

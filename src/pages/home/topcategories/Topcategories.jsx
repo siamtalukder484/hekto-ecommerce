@@ -40,7 +40,7 @@ const Topcategories = () => {
         <div className='max-w-container mx-auto'>
             <div className='top_categories_contant_box'>
                 <div className='text-center mb-[56px]'>
-                    <Subheading text="top categories" style="text-[42px] text-[#151875] font-[700] capitalize "/>
+                    <Subheading text="top categories" style="text-[42px] text-[#151875] font-[700] font-Josefin capitalize "/>
                 </div>
                 <div className='flex items-center  justify-between gap-x-[30px] flex-wrap '>
                     {
@@ -53,8 +53,8 @@ const Topcategories = () => {
                                     </div>
                                 </div>
                                 <div className=' text-center  mt-[27px] bg-[#fff]'>
-                                    <Nanohead text={item.name} style='text-[20px] text-[#151875] font-[700] capitalize mb-[14px] '/>
-                                    <Peras text={item.price} style=" text-[center] text-[#151875] text-[16px] font-[400]"/>
+                                    <Nanohead text={item.name} style='text-[20px] text-[#151875] font-[700] font-Josefin capitalize mb-[14px] '/>
+                                    <Peras text={item.price} style=" text-[center] text-[#151875] text-[16px] font-[400] font-Josefin"/>
                                 </div>
                             </div>
                         ))

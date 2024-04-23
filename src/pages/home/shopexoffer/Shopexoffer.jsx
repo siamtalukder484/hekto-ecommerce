@@ -40,7 +40,7 @@ const Shopexoffer = () => {
         <div className='max-w-container mx-auto'>
             <div className='leatest_product_container'>
                 <div className='text-center mb-[55px]'>
-                    <Subheading text="What Shopex Offer!" style="text-[42px] text-[#151875] font-[700] capitalize "/>
+                    <Subheading text="What Shopex Offer!" style="text-[42px] text-[#151875] font-[700] font-Josefin capitalize "/>
                 </div>
                 <div className='flex item-center  justify-between gap-x-[30px] flex-wrap '>
                     {
@@ -50,8 +50,8 @@ const Shopexoffer = () => {
                                     <img className='w-[100%] h-[100%] object-cover' src={item.img} alt="not found" />
                                 </div> 
                                 <div className='text-center bg-[#fff] mt-[27px]'>
-                                    <Nanohead text={item.support} style='text-[22px] text-[#151875] font-[500] capitalize mb-[20px]'/>
-                                    <Peras text={item.pera} style="w-[217px] mx-auto text-[center] text-[#1A0B5B] text-[14px] font-[400] mb-[12px]"/>
+                                    <Nanohead text={item.support} style='text-[22px] text-[#151875] font-[500] font-Josefin capitalize mb-[20px]'/>
+                                    <Peras text={item.pera} style="w-[217px] mx-auto text-[center] text-[#1A0B5B] text-[14px] font-[400] font-lato mb-[12px]"/>
                                 </div>
                             </div>
                         ))
