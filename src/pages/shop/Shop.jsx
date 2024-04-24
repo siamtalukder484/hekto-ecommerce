@@ -46,7 +46,7 @@ const Shop = () => {
           </div>
           <div className='flex gap-[24px] flex-wrap pt-[70px]'>
             <div>
-              <ProductImg img={shopOne} productname="Vel elit euismod" price="$30.5" deletPrice="$50.67"/>
+              <ProductImg img={shopOne} productname="Vel elit euismod" />
             </div>
             <div>
               <ProductImg img={shopTow} productname="Ultricies condimentum imperdiet" price="$30.5" deletPrice="$50.67"/>
