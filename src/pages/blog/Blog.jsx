@@ -24,6 +24,13 @@ import blogPost2 from '../../assets/images/blogPost2.png'
 import BlogPost from '../../componants/BlogPost'
 import Input from '../../componants/Input'
 import Button from '../../componants/Button'
+import { FaUserAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { BiSolidMessageRounded } from "react-icons/bi";
+import Nanohead from '../../utilities/nanohead/Nanohead'
+import { CiSearch } from "react-icons/ci";
+
+
 
 
 
@@ -189,44 +196,81 @@ let postarry = [
             }
 
         </div>
-        <div className='pt-[135px]'>
-        <form className="space-y-5">
-                <div className="flex items-center gap-x-4 ">
-                  <div className="w-[255px]">
+        <div className='pt-[135px] w-[717px]'>
+        <form className="space-y-5 text-center">
+                <div className="flex items-center justify-between gap-x-[33px] ">
+                  <div className="w-[341px] relative">
+                  <FaUserAlt className='absolute text-[13px] text-[#a4b6c8b3] top-[50%]  translate-y-topMiddle left-[9px]'/>
                     <Input
                       type="text"
-                      style="w-full border border-[#a4b6c8b3] p-3 rounded-[3px] outline-none text-base font-lato font-normal leading-normal text-pera-color"
+                      style="w-full border border-[#a4b6c8b3] pl-[28px] pt-[10px] pb-[13px] rounded-[3px] outline-none text-base font-lato font-normal leading-normal text-pera-color "
                       placeholder="Your Name*"
                       name="fullName"
                       required
                     />
                   </div>
-                  <div className="w-[255px]">
+                  <div className="w-[341px] relative">
+                  <MdEmail  className='absolute text-[14px] text-[#a4b6c8b3] top-[50%]  translate-y-topMiddle left-[9px]'/>
                     <Input
                       type="email"
-                      style="w-full border border-[#a4b6c8b3] p-3 rounded-[3px] outline-none text-base font-lato font-normal leading-normal text-pera-color"
-                      placeholder="Write Your Email**"
-                      name="fullName"
+                      style="w-full border border-[#a4b6c8b3] pl-[28px] pt-[10px] pb-[13px] rounded-[3px] outline-none text-base font-lato font-normal leading-normal text-pera-color"
+                      placeholder="Write Your Email*"
+                      name="email"
                     />
                   </div>
                 </div>
-                <div>
+                <div className='relative'>
+                <BiSolidMessageRounded  className='absolute text-[14px] text-[#a4b6c8b3] top-[30px]   left-[20px]'/>
                   <textarea
-                    className="w-[526px] border border-[#a4b6c8b3] p-3 rounded-[3px] outline-none text-base font-lato font-normal leading-normal text-pera-color"
+                    className="w-[717px] h-[205px] border border-[#a4b6c8b3] pt-[21px] pl-[39px] rounded-[3px] outline-none text-base font-lato font-normal leading-normal text-pera-color resize-none		"
                     name=""
                     id=""
                     placeholder="Write your comment*"
                   ></textarea>
                 </div>
+                <div className='pt-[25px] pb-[45px] flex items-center gap-x-[5px] justify-start text-[#a4b6c8b3]'>
+                  <Input
+                  type="checkbox"
+                  style=""
+                  name=""/>
+                  <PeraGrap style="text-[13px] font-lato font-medium	" text="Save my name, email, and website in this browser for the next time I comment."/> 
+                </div>
                 <Button
-                  text="Send Mail"
-                  style="py-[9px] px-[41px] bg-btn-color text-white font-josefin text-base font-normal leading-[25px] rounded-[3px]"
+                  text="Continue Shipping"
+                  style="py-[15px] px-[271px] bg-[#FC45A0] text-white font-Josefin  text-[17px] font-normal leading-[25px] rounded-[3px] pointer	"
                 />
               </form>
 
         </div>
       </div>
-      <div className='w-[270px]'></div>
+      <div className='w-[270px]'>
+        <div>
+          <div className='flex flex-col gap-y-[15px]'>
+            <Nanohead style="text-[22px] font-Josefin font-semibold	leading-6	text-[#151875]" text="Search"/>
+            <div className='w-[270px] h-10 relative'>
+                <Input
+                   style="w-[100%] h-[100%] border border-[#a4b6c8b3] text-pera-color text-base pl-3 pr-8 rounded-[3px] outline-none text-base font-lato"
+                />
+                <CiSearch className="absolute top-[50%]  translate-y-topMiddle right-[10px] text-[#8296a9b3] cursor-pointer"/>
+            </div>
+          </div>
+          <div className='pt-[52px]'>
+          <Nanohead style="text-[22px] font-Josefin font-semibold	leading-6	text-[#151875]" text="Categories"/>
+          <div className='pt-[25px] flex items-center gap-x-[10px]'>
+            <div  className='flex flex-col gap-y-[12px]'>
+              <PeraGrap style="text-sm font-Josefin font-normal w-[122px] transition-all duration-300	rounded	 hover:w-[122px] text-[#3F509E] cursor-pointer py-2 pl-[9px] pr-[33px] hover:py-2 hover:pl-[9px] hover:pr-[33px] hover:bg-[#FC45A0] hover:text-[#fff]" text="Hobbies (14)"/>
+              <PeraGrap style="text-sm font-Josefin font-normal w-[122px] transition-all duration-300	rounded	 hover:w-[122px] text-[#3F509E] cursor-pointer py-2 pl-[9px] pr-[33px] hover:py-2 hover:pl-[9px] hover:pr-[33px] hover:bg-[#FC45A0] hover:text-[#fff]" text="Women (21)"/>
+              <PeraGrap style="text-sm font-Josefin font-normal w-[122px] transition-all duration-300	rounded	 hover:w-[122px] text-[#3F509E] cursor-pointer py-2 pl-[9px] pr-[33px] hover:py-2 hover:pl-[9px] hover:pr-[33px] hover:bg-[#FC45A0] hover:text-[#fff]" text="Women (21)"/>
+            </div>
+            <div  className='flex flex-col gap-y-[12px]'>
+              <PeraGrap style="text-sm font-Josefin font-normal w-[122px] transition-all duration-300	rounded	 hover:w-[122px] text-[#3F509E] cursor-pointer py-2 pl-[9px] pr-[33px] hover:py-2 hover:pl-[9px] hover:pr-[33px] hover:bg-[#FC45A0] hover:text-[#fff]" text="Women (21)"/>
+              <PeraGrap style="text-sm font-Josefin font-normal w-[122px] transition-all duration-300	rounded	 hover:w-[122px] text-[#3F509E] cursor-pointer py-2 pl-[9px] pr-[33px] hover:py-2 hover:pl-[9px] hover:pr-[33px] hover:bg-[#FC45A0] hover:text-[#fff]" text="Women (21)"/>
+              <PeraGrap style="text-sm font-Josefin font-normal w-[122px] transition-all duration-300	rounded	 hover:w-[122px] text-[#3F509E] cursor-pointer py-2 pl-[9px] pr-[33px] hover:py-2 hover:pl-[9px] hover:pr-[33px] hover:bg-[#FC45A0] hover:text-[#fff]" text="Women (21)"/>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
    </section>
