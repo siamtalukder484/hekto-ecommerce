@@ -30,7 +30,13 @@ export default {
       },
       boxShadow: {
         'product-shadow': 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;',
-        'features-shadow': '0px 0px 10px 0px rgba(0,0,0,0.1)',
+        'fe,atures-shadow': '0px 0px 10px 0px rgba(0,0,0,0.1)',
+        'blogPost-shadoe': " 0px 1px 17px 0px rgba(0,0,0,0.55)",
+       
+      },
+      translate: {
+        topMiddle: '-50%',
+        leftMiddle: '-50%'
       }
     },
   },
