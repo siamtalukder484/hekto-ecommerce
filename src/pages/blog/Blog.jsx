@@ -29,6 +29,20 @@ import { MdEmail } from "react-icons/md";
 import { BiSolidMessageRounded } from "react-icons/bi";
 import Nanohead from '../../utilities/nanohead/Nanohead'
 import { CiSearch } from "react-icons/ci";
+import recentPost1 from '../../assets/images/post1.png'
+import recentPost2 from '../../assets/images/post2.png'
+import recentPost3 from '../../assets/images/post3.png'
+import recentPost4 from '../../assets/images/post4.png'
+import sale1 from '../../assets/images/sale1.png'
+import sale2 from '../../assets/images/sale2.png'
+import sale3 from '../../assets/images/sale3.png'
+import offer1 from '../../assets/images/offer1.png'
+import offer2 from '../../assets/images/offer2.png'
+import offer3 from '../../assets/images/offer3.png'
+import offer4 from '../../assets/images/offer4.png'
+import shopBrand from '../../assets/images/brand_img.png'
+
+
 
 
 
@@ -87,7 +101,90 @@ let postarry = [
     discription:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in vitae rutrum vulputate consectetur."
   },
 ]
+let recentPost = [
+  {
+    id: 1,
+    img:recentPost1,
+    title:"It is a long established fact",
+    date:"Aug 09 2020",
+  },
+  {
+    id: 2,
+    img:recentPost2,
+    title:"It is a long established fact",
+    date:"Aug 09 2020",
+   
+  },
+  {
+    id: 3,
+    img:recentPost3,
+    title:"It is a long established fact",
+    date:"Aug 09 2020",
+   
+  },
+  {
+    id: 4,
+    img:recentPost4,
+    title:"It is a long established fact",
+    date:"Aug 09 2020",
+   
+  },
+]
+let saleProduct = [
+  {
+    id: 1,
+    img:sale1,
+    title:"Elit ornare in enim mauris.",
+    date:"Aug 09 2020",
+  },
+  {
+    id: 2,
+    img:sale2,
+    title:"Viverra pulvinar et enim.",
+    date:"Aug 09 2020",
+   
+  },
+  {
+    id: 3,
+    img:sale3,
+    title:"Mattis varius donec fdsfd",
+    date:"Aug 09 2020",
+   
+  },
+ 
+]
+let offerProduct = [
+  {
+    id: 1,
+    img:offer1,
+    title:"Duis lectus est.",
+    offer:"$12.00 - $15.00",
+  },
+  {
+    id: 2,
+    img:offer2,
+    title:"Sed placerat.",
+    offer:"$12.00 - $15.00",
+  },
+  {
+    id: 3,
+    img:offer3,
+    title:"Netus proin.",
+    offer:"$12.00 - $15.00",
+  },
+  {
+    id: 4,
+    img:offer4,
+    title:"Platea in.",
+    offer:"$12.00 - $15.00",
+  },
+ 
+]
+
+
+
   return (
+   <>
    <section>
      <div className='bg-about-bg'>
       <div className='max-w-container mx-auto pt-[96px] pb-[126px]'>
@@ -269,11 +366,102 @@ let postarry = [
             </div>
           </div>
           </div>
+          <div className='pt-[37px]'>
+          <Nanohead style="text-[22px] font-Josefin font-semibold	leading-6	text-[#151875]" text="Recent Post"/>
+          <div className='pt-[37px] flex flex-col gap-y-[22px]' >
+            {
+              recentPost.map((item, index)=>(
+
+                <div key={index} className='w-[250px] flex gap-x-[5px]'>
+                <div className='w-[70px] h-[51px]'>
+                  <Image style="w-[100%] h-[100%] object-cover" source={item.img} alt="not found"/>
+                </div>
+                <div className='flex flex-col gap-y-[5px] pt-[7px]'>
+                  <PeraGrap style="text-sm	font-normal	font-Josefin leading-3	text-[#3F509E]" text={item.title}/>
+                  <Span  style="text-[11px]	font-semibold	font-lato leading-3	text-[#8A8FB9]" text={item.date}/>
+                </div>
+              </div>
+
+              ))
+            }
+          </div>
+          </div>
+          <div className='pt-[37px]'>
+          <Nanohead style="text-[22px] font-Josefin font-semibold	leading-6	text-[#151875]" text="Sale Product"/>
+          <div className='pt-[37px] flex flex-col gap-y-[22px]' >
+            {
+              saleProduct.map((item, index)=>(
+
+                <div key={index} className='w-[250px] flex gap-x-[5px]'>
+                <div className='w-[70px] h-[51px]'>
+                  <Image style="w-[100%] h-[100%] object-cover" source={item.img} alt="not found"/>
+                </div>
+                <div className='flex flex-col gap-y-[5px] pt-[7px]'>
+                  <PeraGrap style="text-sm	font-normal	font-Josefin leading-3	text-[#3F509E]" text={item.title}/>
+                  <Span  style="text-[11px]	font-semibold	font-lato leading-3	text-[#8A8FB9]" text={item.date}/>
+                </div>
+              </div>
+
+              ))
+            }
+          </div>
+          </div>
+          <div className='pt-[37px]'>
+          <Nanohead style="text-[22px] font-Josefin font-semibold	leading-6	text-[#151875]" text="Offer product"/>
+          <div className='pt-[37px] flex gap-x-[15px]  gap-y-[30px] flex-wrap'>
+                {
+                  offerProduct.map((item, index) =>(
+            <div key={index} className='w-[126px]'>
+                <div className='w-[126px] h-[80px]'>
+                    <Image style="w-[100%] h-[100%] object-cover" source={item.img} alt="not found"/>
+                </div>
+                <div className='text-center mt-[9px]'>
+                  <PeraGrap style="text-sm	font-semibold	font-lato leading-4	text-[#151875]" text={item.title}/>
+                  <Span  style="text-[11px]	font-semibold	font-lato leading-3	text-[#8A8FB9]" text={item.offer}/>
+                </div>
+            </div>
+                  ))
+                }
+            </div>
+          </div>
+          <div className='pt-[37px]'>
+            <Nanohead style="text-[22px] font-Josefin font-semibold	leading-6	text-[#151875]" text="Follow"/>
+              <div className='pt-[15px] flex gap-x-[14px] items-center'>
+                <div className='w-[25px] h-[25px] rounded-full bg-[#5625DF] text-center flex cursor-pointer items-center justify-center'>
+              <TiSocialFacebook className='text-white text-base'/>
+            </div>
+              <div className='w-[25px] h-[25px] rounded-full bg-[#FC45A0] text-center flex cursor-pointer items-center justify-center'>
+             <RiInstagramFill className='text-white text-base'/>
+             </div>
+             <div className='w-[25px] h-[25px] rounded-full bg-[#37DAF3] text-center flex cursor-pointer items-center justify-center'>
+             <IoLogoTwitter className='text-white text-base'/>
+          </div>
+        </div>
+          </div>
+          <div className='pt-[37px]'>
+          <Nanohead style="text-[22px] font-Josefin font-semibold	leading-6	text-[#151875]" text="Tags"/>
+          <div className='pt-[18px] grid grid-cols-3	gap-x-[41px] gap-y-3'>
+          <PeraGrap style="text-base relative cursor-pointer after:absolute after:content-[''] after:w-[57px] after:h-[1px] after:bg-[#151875] hover:text-[#FC45A0] hover:after:bg-[#FC45A0]  after:left-0 after:bottom-[0px] font-semibold	font-lato transition-all duration-300 	text-[#151875]" text="General"/>
+          <PeraGrap style="text-base relative cursor-pointer after:absolute after:content-[''] after:w-[52px] after:h-[1px] after:bg-[#151875] hover:text-[#FC45A0] hover:after:bg-[#FC45A0]  after:left-0 after:bottom-[0px] font-semibold	font-lato transition-all duration-300 	text-[#151875]" text="Atsanil"/>
+          <PeraGrap style="text-base relative cursor-pointer after:absolute after:content-[''] after:w-[41px] after:h-[1px] after:bg-[#151875] hover:text-[#FC45A0] hover:after:bg-[#FC45A0]  after:left-0 after:bottom-[0px] font-semibold	font-lato transition-all duration-300 	text-[#151875]" text="Insas."/>
+          <PeraGrap style="text-base relative cursor-pointer after:absolute after:content-[''] after:w-[55px] after:h-[1px] after:bg-[#151875] hover:text-[#FC45A0] hover:after:bg-[#FC45A0]  after:left-0 after:bottom-[0px] font-semibold	font-lato transition-all duration-300 	text-[#151875]" text="Bibsaas"/>
+          <PeraGrap style="text-base relative cursor-pointer after:absolute after:content-[''] after:w-[43px] after:h-[1px] after:bg-[#151875] hover:text-[#FC45A0] hover:after:bg-[#FC45A0]  after:left-0 after:bottom-[0px] font-semibold	font-lato transition-all duration-300 	text-[#151875]" text="Nulla."/>
+          </div>
+          </div>
         </div>
       </div>
       </div>
     </div>
    </section>
+   <section className='pt-[106px] max-w-container mx-auto'>
+   <div className=' flex items-center justify-center'>
+              <picture>
+                <Image source={shopBrand} alt="FAQ Image Not Found"/>
+              </picture>
+          </div>
+   </section>
+   </>
+   
     
   )
 }
